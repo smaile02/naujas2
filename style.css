@@ -1,0 +1,45 @@
+body{
+font-family: monospace;
+text-align: center;
+}
+h1{
+    font-size: 30px;
+    line-height: 3;
+}
+table{
+    border: 1px dashed black;
+    width: 80%;
+    margin: auto;
+    font-size: 24px;
+}
+.app{
+    width: 80%;
+    border: 1px solid grey;
+    margin: 50px auto;
+    min-height: 60vh;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+imput{
+    width: 200px;
+    height: 30px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+button{
+    height: 30px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+li{
+    font-size: 24px;
+    line-height: 2;
+}
+spar{
+    font-weight: 600;
+    color: red;
+    cursor: pointer;
+    user-select: none;
+}
